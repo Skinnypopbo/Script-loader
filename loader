@@ -1,0 +1,18 @@
+local gameId = game.PlaceId
+local aresenal = 286090429
+local MuscleLegends = 3623096087
+local WrestlingLegends = 104243526201936
+local BubbleGumInfinity = 5896571713843
+
+if gameId == aresenal then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/AresenalUpdate/refs/heads/main/Update"))()
+else if gameId == MuscleLegends then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/muscle-legends/refs/heads/main/spaces"))()
+else if gameId == WrestlingLegends then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/cool/refs/heads/main/wrestling%20legends"))()
+else if gameId == BubbleGumInfinity then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/Bubble/refs/heads/main/Bubble"))()
+            end
+        end
+    end
+end

@@ -4,6 +4,7 @@ local MuscleLegends = 3623096087
 local WrestlingLegends = 104243526201936
 local BubbleGumInfinity = 5896571713843
 local FlagWars = 3214114884
+local NAD = 189707
 
 
 if gameId == aresenal then
@@ -16,6 +17,9 @@ else if gameId == BubbleGumInfinity then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/Bubble/refs/heads/main/Bubble"))()
 else if gameId == FlagWars then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/Flag-Wars/refs/heads/main/Wars"))()
+else if gameId == NAD then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/NAD/refs/heads/main/NAD"))()
+                    end
                 end
             end
         end

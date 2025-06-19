@@ -1,3 +1,5 @@
+
+--Game ids
 local gameId = game.PlaceId
 local aresenal = 286090429
 local MuscleLegends = 3623096087
@@ -8,6 +10,7 @@ local NAD = 189707
 local NSA = 6407649031
 local BladeBall = 13772394625
 
+--Games
 if gameId == aresenal then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/AresenalUpdate/refs/heads/main/Update"))()
 else if gameId == MuscleLegends then
@@ -24,7 +27,8 @@ else if gameId == NSA then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/NSA/refs/heads/main/NAS"))()
 else if gameId == BladeBall then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/Blade-Ball/refs/heads/main/Blade%20Ball"))()
-    else
+--if you get this your just dumb
+else
 local CoreGui = game:GetService("StarterGui")
 
 CoreGui:SetCore("SendNotification", {

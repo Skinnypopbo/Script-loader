@@ -8,7 +8,6 @@ local NAD = 189707
 local NSA = 6407649031
 local BladeBall = 13772394625
 
-
 if gameId == aresenal then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/AresenalUpdate/refs/heads/main/Update"))()
 else if gameId == MuscleLegends then
@@ -25,6 +24,14 @@ else if gameId == NSA then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/NSA/refs/heads/main/NAS"))()
 else if gameId == BladeBall then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/Blade-Ball/refs/heads/main/Blade%20Ball"))()
+    else
+local CoreGui = game:GetService("StarterGui")
+
+CoreGui:SetCore("SendNotification", {
+	Title = "Not Supported :)";
+	Text = "";
+	Duration = 5;
+})
                             end
                         end
                     end
@@ -32,15 +39,4 @@ else if gameId == BladeBall then
             end
         end
     end
-end
-
-
-else
-gameId == nil then
-Rayfield:Notify({
-   Title = "Notification Title",
-   Content = "NOT SUPPORTED :)",
-   Duration = 6.5,
-   Image = 4483362458,
-})
 end

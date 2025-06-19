@@ -9,24 +9,28 @@ local FlagWars = 3214114884
 local NAD = 189707
 local NSA = 6407649031
 local BladeBall = 13772394625
+local TOH = 1962086868
 
 --Scripts
 if gameId == aresenal then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/AresenalUpdate/refs/heads/main/Update"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/AresenalUpdate/refs/heads/main/Update"))()
 else if gameId == MuscleLegends then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/muscle-legends/refs/heads/main/spaces"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/muscle-legends/refs/heads/main/spaces"))()
 else if gameId == WrestlingLegends then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/cool/refs/heads/main/wrestling%20legends"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/cool/refs/heads/main/wrestling%20legends"))()
 else if gameId == BubbleGumInfinity then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/Bubble/refs/heads/main/Bubble"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/Bubble/refs/heads/main/Bubble"))()
 else if gameId == FlagWars then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/Flag-Wars/refs/heads/main/Wars"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/Flag-Wars/refs/heads/main/Wars"))()
 else if gameId == NAD then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/NAD/refs/heads/main/NAD"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/NAD/refs/heads/main/NAD"))()
 else if gameId == NSA then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/NSA/refs/heads/main/NAS"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/NSA/refs/heads/main/NAS"))()
 else if gameId == BladeBall then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/Blade-Ball/refs/heads/main/Blade%20Ball"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/Blade-Ball/refs/heads/main/Blade%20Ball"))()
+else if gameId == TOH then
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/TOH/refs/heads/main/TOH"))()
+				end
                             end
                         end
                     end

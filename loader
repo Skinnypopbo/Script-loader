@@ -33,3 +33,14 @@ else if gameId == BladeBall then
         end
     end
 end
+
+
+else
+gameId == nil then
+Rayfield:Notify({
+   Title = "Notification Title",
+   Content = "NOT SUPPORTED :)",
+   Duration = 6.5,
+   Image = 4483362458,
+})
+end

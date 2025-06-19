@@ -6,6 +6,7 @@ local BubbleGumInfinity = 5896571713843
 local FlagWars = 3214114884
 local NAD = 189707
 local NSA = 6407649031
+local BladeBall = 13772394625
 
 
 if gameId == aresenal then
@@ -22,6 +23,9 @@ else if gameId == NAD then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/NAD/refs/heads/main/NAD"))()
 else if gameId == NSA then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/NSA/refs/heads/main/NAS"))()
+else if gameId == BladeBall then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/Blade-Ball/refs/heads/main/Blade%20Ball"))()
+                            end
                         end
                     end
                 end

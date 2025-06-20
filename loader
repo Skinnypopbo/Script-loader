@@ -9,6 +9,7 @@ local FlagWars = 3214114884
 local NAD = 189707
 local NSA = 6407649031
 local BladeBall = 13772394625
+local BladeBallT = 15234596844
 local TOH = 1962086868
 
 --Scripts
@@ -28,8 +29,11 @@ else if gameId == NSA then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/NSA/refs/heads/main/NAS"))()
 else if gameId == BladeBall then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/Blade-Ball/refs/heads/main/Blade%20Ball"))()
+else if gameId == BladeBallT then
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/Blade-Ball/refs/heads/main/Blade%20Ball"))()
 else if gameId == TOH then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/TOH/refs/heads/main/TOH"))()
+					end
 				end
                             end
                         end

@@ -53,7 +53,7 @@ else if gameId == homerunsim then
 end
 
 --if you get this your just dumb and slow :(
-else
+else if gameId == nil then
 local CoreGui = game:GetService("StarterGui")
 
 CoreGui:SetCore("SendNotification", {
@@ -61,3 +61,4 @@ CoreGui:SetCore("SendNotification", {
 	Text = "";
 	Duration = 5;
 })
+end

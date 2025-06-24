@@ -53,6 +53,7 @@ else if gameId == homerunsim then
 end
 
 --if you get this your just dumb and slow :(
+else
 local CoreGui = game:GetService("StarterGui")
 
 CoreGui:SetCore("SendNotification", {

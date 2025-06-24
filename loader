@@ -10,6 +10,7 @@ local NAD = 189707
 local NSA = 6407649031
 local BladeBall = 13772394625
 local BladeBallT = 15234596844
+local BladeBall2 = 16281300371
 local TOH = 1962086868
 local homerunsim = 11562435896
 
@@ -32,10 +33,13 @@ else if gameId == BladeBall then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/Blade-Ball/refs/heads/main/Blade%20Ball"))()
 else if gameId == BladeBallT then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/Blade-Ball/refs/heads/main/Blade%20Ball"))()
+else if gameId == BladeBall2 then
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/Blade-Ball/refs/heads/main/Blade%20Ball"))()
 else if gameId == TOH then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/TOH/refs/heads/main/TOH"))()
 else if gameId == homerunsim then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/home-run-sim/refs/heads/main/homerunsim"))()
+							end
 						end
 					end
 				end

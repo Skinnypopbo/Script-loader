@@ -39,6 +39,16 @@ else if gameId == TOH then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/TOH/refs/heads/main/TOH"))()
 else if gameId == homerunsim then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/home-run-sim/refs/heads/main/homerunsim"))()
+--if you get this your just dumb and slow :(
+else if gameId == nil then
+local CoreGui = game:GetService("StarterGui")
+
+CoreGui:SetCore("SendNotification", {
+	Title = "Not Supported :(";
+	Text = "";
+	Duration = 5;
+})
+								end
 							end
 						end
 					end
@@ -52,13 +62,4 @@ else if gameId == homerunsim then
     end
 end
 
---if you get this your just dumb and slow :(
-else if gameId == nil then
-local CoreGui = game:GetService("StarterGui")
 
-CoreGui:SetCore("SendNotification", {
-	Title = "Not Supported :(";
-	Text = "";
-	Duration = 5;
-})
-end

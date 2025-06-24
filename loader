@@ -13,6 +13,7 @@ local BladeBallT = 15234596844
 local BladeBall2 = 16281300371
 local TOH = 1962086868
 local homerunsim = 11562435896
+local NinjaLegends = 3956818381
 
 --Scripts
 if gameId == aresenal then
@@ -39,15 +40,21 @@ else if gameId == TOH then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/TOH/refs/heads/main/TOH"))()
 else if gameId == homerunsim then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/home-run-sim/refs/heads/main/homerunsim"))()
+else if gameId == NinjaLegends then
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/Ninja-Legends/refs/heads/main/Legends"))()
+	
+
+
 --if you get this your just dumb and slow :(
 else if gameId == nil then
-local CoreGui = game:GetService("StarterGui")
+	local CoreGui = game:GetService("StarterGui")
 
-CoreGui:SetCore("SendNotification", {
+	CoreGui:SetCore("SendNotification", {
 	Title = "Not Supported :(";
 	Text = "";
 	Duration = 5;
-})
+	})
+									end
 								end
 							end
 						end

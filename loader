@@ -14,6 +14,7 @@ local BladeBall2 = 16281300371
 local TOH = 1962086868
 local homerunsim = 11562435896
 local NinjaLegends = 3956818381
+local RaceClicker = 9285238704
 
 --Scripts
 if gameId == aresenal then
@@ -42,6 +43,8 @@ else if gameId == homerunsim then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/home-run-sim/refs/heads/main/homerunsim"))()
 else if gameId == NinjaLegends then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/Ninja-Legends/refs/heads/main/Legends"))()
+else if gameId == RaceClicker then
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/Race-Clicker/refs/heads/main/Race"))()
 	
 
 
@@ -54,6 +57,8 @@ else if gameId == nil then
 	Text = "";
 	Duration = 5;
 	})
+										
+										end
 									end
 								end
 							end

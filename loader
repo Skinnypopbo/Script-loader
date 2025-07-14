@@ -85,7 +85,6 @@ else if gameId == nil then
                 end
             end
         end
-    end
-end
+
 
 

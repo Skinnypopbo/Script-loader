@@ -17,6 +17,7 @@ local NinjaLegends = 3956818381
 local RaceClicker = 9285238704
 local Rivals = 17625359962
 local BrainRotevo = 111989938562194
+local HideorDie = 18799085098
 
 --Scripts
 if gameId == aresenal then
@@ -51,6 +52,8 @@ else if gameId == Rivals then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/rivals/refs/heads/main/rivals"))()
 else if gameId == BrainRotevo then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/Brainrot-Evolution/refs/heads/main/Evolution"))()
+else if gameId == HideorDie then
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/Hide-or-Die/refs/heads/main/Hide"))()
 	
 
 
@@ -63,6 +66,7 @@ else if gameId == nil then
 	Text = "";
 	Duration = 5;
 	})
+															end
 														end
 													end
 												end

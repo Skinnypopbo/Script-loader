@@ -18,6 +18,7 @@ local RaceClicker = 9285238704
 local Rivals = 17625359962
 local BrainRotevo = 111989938562194
 local HideorDie = 18799085098
+local ArmWrestlingSim = 13127800756
 
 --Scripts
 if gameId == aresenal then
@@ -54,6 +55,8 @@ else if gameId == BrainRotevo then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/Brainrot-Evolution/refs/heads/main/Evolution"))()
 else if gameId == HideorDie then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/Hide-or-Die/refs/heads/main/Hide"))()
+else if gameId == ArmWrestlingSim then
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/Arm-Wrestling-Sim/refs/heads/main/Wrestling"))()
 	
 
 
@@ -66,6 +69,7 @@ else if gameId == nil then
 	Text = "";
 	Duration = 5;
 	})
+																end
 															end
 														end
 													end

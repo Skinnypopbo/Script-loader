@@ -20,6 +20,7 @@ local BrainRotevo = 111989938562194
 local HideorDie = 18799085098
 local ArmWrestlingSim = 13127800756
 local PullaSword = 13827198708
+local ERLC = 2534724415
 
 --Scripts
 if gameId == aresenal then
@@ -60,6 +61,8 @@ else if gameId == ArmWrestlingSim then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/Arm-Wrestling-Sim/refs/heads/main/Wrestling"))()
 else if gameId == PullaSword then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/Pull-a-Sword/refs/heads/main/Sword"))()
+else if gameId == ERLC then
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/ERLC-Car-Mod/refs/heads/main/Car"))()
 	
 
 
@@ -72,6 +75,7 @@ else if gameId == nil then
 	Text = "";
 	Duration = 5;
 	})
+																		end
 																	end
 																end
 															end

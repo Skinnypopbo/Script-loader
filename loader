@@ -21,6 +21,7 @@ local HideorDie = 18799085098
 local ArmWrestlingSim = 13127800756
 local PullaSword = 13827198708
 local ERLC = 2534724415
+local LegendsofSpeed = 3101667897
 
 --Scripts
 if gameId == aresenal then
@@ -63,6 +64,8 @@ else if gameId == PullaSword then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/Pull-a-Sword/refs/heads/main/Sword"))()
 else if gameId == ERLC then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/ERLC-Car-Mod/refs/heads/main/Car"))()
+else if gameId == LegendsofSpeed then
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/legends-of-speed/refs/heads/main/speed"))()
 	
 
 
@@ -75,6 +78,7 @@ else if gameId == nil then
 	Text = "";
 	Duration = 5;
 	})
+																			end
 																		end
 																	end
 																end

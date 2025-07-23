@@ -65,7 +65,7 @@ else if gameId == PullaSword then
 else if gameId == ERLC then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/ERLC-Car-Mod/refs/heads/main/Car"))()
 else if gameId == LegendsofSpeed then
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/legends-of-speed/refs/heads/main/speed"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/Legends-of-Speed/refs/heads/main/Legend"))()
 	
 
 

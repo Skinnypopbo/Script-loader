@@ -1,75 +1,12 @@
 
 --game ids :)
 local gameId = game.PlaceId
-local aresenal = 286090429
-local MuscleLegends = 3623096087
-local WrestlingLegends = 104243526201936
-local BubbleGumInfinity = 5896571713843
-local FlagWars = 3214114884
-local NAD = 189707
-local NSA = 6407649031
-local BladeBall = 13772394625
-local BladeBallT = 15234596844
-local BladeBall2 = 16281300371
-local TOH = 1962086868
-local homerunsim = 11562435896
-local NinjaLegends = 3956818381
-local RaceClicker = 9285238704
-local Rivals = 17625359962
-local BrainRotevo = 111989938562194
-local HideorDie = 18799085098
-local ArmWrestlingSim = 13127800756
-local PullaSword = 13827198708
-local ERLC = 2534724415
-local LegendsofSpeed = 3101667897
-local RidenSlide = 122746235831087
+local breakyourbones = 123821081589134
 
 --Scripts
-if gameId == aresenal then
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/AresenalUpdate/refs/heads/main/Update"))()
-else if gameId == MuscleLegends then
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/muscle-legends/refs/heads/main/spaces"))()
-else if gameId == WrestlingLegends then
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/cool/refs/heads/main/wrestling%20legends"))()
-else if gameId == BubbleGumInfinity then
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/Bubble/refs/heads/main/Bubble"))()
-else if gameId == FlagWars then
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/Flag-Wars/refs/heads/main/Wars"))()
-else if gameId == NAD then
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/NAD/refs/heads/main/NAD"))()
-else if gameId == NSA then
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/NSA/refs/heads/main/NAS"))()
-else if gameId == BladeBall then
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/Blade-Ball/refs/heads/main/Blade%20Ball"))()
-else if gameId == BladeBallT then
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/Blade-Ball/refs/heads/main/Blade%20Ball"))()
-else if gameId == BladeBall2 then
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/Blade-Ball/refs/heads/main/Blade%20Ball"))()
-else if gameId == TOH then
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/TOH/refs/heads/main/TOH"))()
-else if gameId == homerunsim then
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/home-run-sim/refs/heads/main/homerunsim"))()
-else if gameId == NinjaLegends then
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/Ninja-Legends/refs/heads/main/Legends"))()
-else if gameId == RaceClicker then
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/Race-Clicker/refs/heads/main/Race"))()
-else if gameId == Rivals then
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/rivals/refs/heads/main/rivals"))()
-else if gameId == BrainRotevo then
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/Brainrot-Evolution/refs/heads/main/Evolution"))()
-else if gameId == HideorDie then
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/Hide-or-Die/refs/heads/main/Hide"))()
-else if gameId == ArmWrestlingSim then
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/Arm-Wrestling-Sim/refs/heads/main/Wrestling"))()
-else if gameId == PullaSword then
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/Pull-a-Sword/refs/heads/main/Sword"))()
-else if gameId == ERLC then
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/ERLC-Car-Mod/refs/heads/main/Car"))()
-else if gameId == LegendsofSpeed then
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/Legends-of-Speed/refs/heads/main/Legend"))()
-else if gameId == RidenSlide then
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/ridenslide/refs/heads/main/slide"))()
-	
+if gameId == breakyourbones then
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/Breakyourbones/refs/heads/main/Bones"))()
+
 
 
 --if you get this your just dumb and slow :(
@@ -81,30 +18,8 @@ else if gameId == nil then
 	Text = "";
 	Duration = 5;
 	})
-																				end
-																			end
-																		end
-																	end
-																end
-															end
-														end
-													end
-												end
-											end
-										
-										end
-									end
-								end
-							end
-						end
-					end
-				end
-                            end
-                        end
-                    end
-                end
-            end
-        end
+	end
+end
 
 
 
